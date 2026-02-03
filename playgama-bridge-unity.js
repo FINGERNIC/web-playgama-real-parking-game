@@ -140,13 +140,13 @@ function initializeBridge() {
                 createUnityInstance(
                     CANVAS,
                     {
-                        dataUrl: 'Build/RealCarParkingGame.data',
-                        frameworkUrl: 'Build/RealCarParkingGame.framework.js',
-                        codeUrl: 'Build/RealCarParkingGame.wasm',
+                        dataUrl: 'Build/RealCarParkingGame.data.unityweb',
+                        frameworkUrl: 'Build/RealCarParkingGame.framework.js.unityweb',
+                        codeUrl: 'Build/RealCarParkingGame.wasm.unityweb',
                         streamingAssetsUrl: 'StreamingAssets',
                         companyName: 'Default',
                         productName: 'Real Car Parking Game',
-                        productVersion: '0.4',
+                        productVersion: '0.5',
                         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
                         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
                     },
